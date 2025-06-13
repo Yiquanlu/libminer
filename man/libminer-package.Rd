@@ -8,6 +8,13 @@
 \description{
 What the package does (one paragraph).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://yiquanlu.github.io/libminer/}
+}
+
+}
 \author{
 \strong{Maintainer}: Yiquan Lu \email{6yiquan@gmail.com}
 
