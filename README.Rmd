@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # libminer
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/Yiquanlu/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Yiquanlu/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to ...
@@ -42,4 +43,6 @@ optionally with the total sizes, use the `lib_summary()` function:
 ```{r example}
 library(libminer)
 lib_summary()
+
+lib_summary(sizes = TRUE)
 ```
